@@ -23,6 +23,8 @@ function mainMenu() {
         outputEl.innerHTML = 'Ratings Adjustment';
     } else if (selection == 'rating-stats') {
         outputEl.innerHTML = 'Rating Stats';
+    } else if (selection == 'add-movie') {
+        outputEl.innerHTML = 'Add Movie';
     } else if (selection == 'top-movies-only') {
         outputEl.innerHTML = 'Top Movies Only';
     } else if (selection == 'remove-movie') {
